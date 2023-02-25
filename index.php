@@ -8,6 +8,7 @@ $coreName = "One page file system";
 </head>
 <body>
 <div id="main">
+<?php
 if(isset($_GET['index'])){
 $index = true;
 }else if(isset($_GET['auth'])){
